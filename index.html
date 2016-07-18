@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aloha Project 2</title>
+	
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="images/aloha-logo.svg" ></a>
+		</div>
+		<nav class="main-menu">
+			<ul>
+				<li><a href="#about"> About</a></li>
+				<li><a href="#shop"> Shop</a></li>
+				<li><a href="#featured"> Featured</a></li>
+				<li><a href="#updates"> Updates</a></li>
+			</ul>	
+		</nav>
+		<div class="cart">
+			<a href="#"><img src="images/cart-icon.svg" ></a>
+		</div>	
+		<span id="counter"></span>
+	</header>
+	
+	
+
+	<section class="hero">
+		<div class="hero-text">
+			<p class="collection">New Collection</p>
+			<p class="months">Spring/Summer 2016</p>
+		</div>	
+	</section>
+	
+	<section class="container about" id="about">
+		<div class="info-about">
+			<h2><span class="thin-italics">Hand-Crafted</span> Styles</h2>
+			<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+		</div>
+	</section>
+
+	<section class="highlight-products" id="shop">
+		<div class="hp-container">
+	    <div class="hp-item-large hp-item-large-top">
+        <div class="hp-content hp-mens">
+          <a href="#">Mens</a>
+        </div>
+	    </div>
+	    <div class="hp-item-square">
+        <div class="hp-content hp-trends">
+          <a href="#">Trends</a>
+        </div>
+	    </div>
+	    <div class="hp-item-square">
+        <div class="hp-content hp-glasses">
+          <a href="#">Glasses</a>
+        </div>
+	    </div>
+	   <div class="hp-item-square">
+        <div class="hp-content hp-sale">
+          <a href="#">Sale</a>	
+        </div>
+	    </div>
+	    <div class="hp-item-square">
+        <div class="hp-content hp-bags">
+          <a href="#">Bags</a>
+        </div>
+	    </div>
+	    <div class="hp-item-large hp-item-large-bottom">
+        <div class="hp-content hp-women">
+         <a href="#">Women's</a>
+        </div>
+	    </div>
+  </div>
+	</section>
+	
+	<section class="gallery" id="featured">
+		<div>
+			<h2><span class="thin-italics">Most-Loved</span> Products</h2>
+		</div>
+		<div class="carousel js-flickity"
+  data-flickity-options='{ "prevNextButtons": false,"wrapAround": true, "cellAlign": "left" }'>
+			<div class="carousel-cell">
+					<a href="#">
+						<img class="gallery-img" src="images/checked-stretch-dress.jpg">
+					</a>
+					<p class="p-type">Dresses</p>
+					<h3>Checked Stretch Dress</h3>
+					<p class="price">$129.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#">
+						<img  class="gallery-img" src="images/blue-hipster-backpack.jpg">
+					</a>
+					<p class="p-type">Bags</p>
+					<h3>Blue Hipster Backpack</h3>
+					<p class="price">$69.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#"><img class="gallery-img" src="images/cotton-blue-shirt.jpg"></a>
+					<p class="p-type">Shirts</p>
+					<h3>Cotton Blue Shirt</h3>
+					<p class="price">$89.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#"><img class="gallery-img" src="images/stretch-knit-dress.jpg"></a>
+					<p class="p-type">Dresses</p>
+					<h3>Stretch Knit Dress</h3>
+					<p class="price">$169.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#"><img class="gallery-img" src="images/demin-overall-shorts.jpg"></a>
+					<p class="p-type">Demin</p>
+					<h3>Demin Overall Shorts</h3>
+					<p class="price">$89.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#"><img class="gallery-img" src="images/pink-dotted-dress.jpg"></a>
+					<p class="p-type">Dresses</p>
+					<h3>Pink Dotted Dress</h3>
+					<p class="price">$99.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#"><img class="gallery-img" src="images/blue-silk-dress.jpg"></a>
+					<p class="p-type">Dresses</p>
+					<h3>Blue Silk Dress</h3>
+					<p class="price">$119.00</p>
+					<button class="addMe">Add</button>
+			</div>
+			<div class="carousel-cell">
+					<a href="#"><img class="gallery-img" src="images/cotton-yellow-tshirt.jpg"></a>
+					<p class="p-type">Shirts</p>
+					<h3>Cotton Yellow tShirt</h3>
+					<p class="price">$39.00</p>
+				  <button class="addMe">Add</button>
+			</div>
+		</div>
+	</section>
+	
+	<section class="signup" id="updates">
+		<div class="signup-text">
+			<h2><span class="thin-italics">Sign-up for</span> Updates</h2>
+			<p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+			<form class="signup-form">
+				<input id="email-input" type="email" name="your-email" value="" placeholder="Your Email">
+				<input type="submit" name="subscribe" value="Subscribe">
+			</form>
+			<span id="message"></span>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container footer-container ">
+			<div class="left-footer">
+				<p class="info"> &copy; 2016 Aloha Apparel Co.<br>Powered by HTML and CSS.</p>
+				<p class="contact">604-604-6040. <a href="mailto:info@alohaapparel.com"> <span class="contact-email">info@alohaapparel.com</span></a></p>
+				<p class="address">1490 W Broadway <br> Vancouver, BC, Canada</p>
+			</div>
+			<div class="right-footer">
+				<ul>
+					<a href="#"><li><i class="fa fa-facebook" aria-hidden="true"></i><span class="social">Facebook</span></li></a>
+					<a href="#"><li><i class="fa fa-twitter" aria-hidden="true"></i><span class="social">Twitter</span></li></a>
+					<a href="#"><li><i class="fa fa-instagram" aria-hidden="true"></i><span class="social">Instagram</span></li></a>
+					<a href="#"><li><i class="fa fa-pinterest-p" aria-hidden="true"></i><span class="social">Pinterest</span></li></a>
+					<a href="#"><li><i class="fa fa-google-plus" aria-hidden="true"></i><span class="social">Google+</span></li></a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
