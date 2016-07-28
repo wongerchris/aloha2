@@ -737,6 +737,9 @@
     .carousel-cell {
         width: 50%;
       } 
+    .flickity-viewport{
+      min-height:430px;
+    }
 
   /*------------- About ------------------*/
 
