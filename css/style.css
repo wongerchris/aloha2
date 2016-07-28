@@ -484,9 +484,13 @@
     height: auto;
   }
   /*------Flickity Slider options ------*/
-
+  
+    .flickity-viewport{
+      min-height:400px;
+    }
     .carousel {
       width: 100%;
+      height: auto;
       margin: 50px 0;
     }
 
