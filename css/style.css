@@ -443,7 +443,6 @@
     height: auto;
     text-align: center;
     padding: 4rem;
-    margin-bottom: 30px;
   }
 
   .carousel-cell p {
@@ -516,7 +515,7 @@
     }
 
     .flickity-page-dots {
-      bottom: -65px;
+      bottom: -30px;
     }
     
 /*------------ signup section -----------*/
