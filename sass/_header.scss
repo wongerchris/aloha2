@@ -1,0 +1,63 @@
+header {
+  	height: auto;
+    display:flex;        
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 1rem .5rem 1rem;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(255,255,255,.9);
+    width: 100%;
+    margin-top: -125px;
+  }
+  
+  .logo {
+    align-items: flex-start;
+  	flex: 0 1 50%;
+    max-width: 120px;
+    order:1;
+  }
+
+  .cart {
+    align-items: flex-end;
+  	flex: 0 1 50%;
+    max-width: 50px;
+    order:2;
+  }
+
+  #counter {
+    position: absolute;
+    top: 30px;
+    color: #e2574c;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+
+  /*-- Nav--*/
+  .main-menu {
+    align-items: center;
+    flex: 0 1 auto;
+    order:3;
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-menu ul {
+    border-top: 1px solid #d7d7d7;
+    padding-top: .6rem;
+    text-align: center;
+  }
+
+  .main-menu ul li {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 1rem;
+    text-transform: uppercase;
+  }
+
+  .main-menu ul li a {
+    color: #e2574c;
+  }

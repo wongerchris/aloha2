@@ -1,0 +1,46 @@
+/*---------Typyography--------------*/
+  html {
+     font-size: 14px;
+  }
+
+  button,
+  input,
+  select,
+  textarea,
+  body {
+    color: #2d2d2d;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  h1, h2, h3 {
+     font-family: 'Playfair', serif;
+     font-weight: bold;
+     font-style: normal;
+     line-height: 1;
+  }
+
+  h2 {
+     font-size: 2.4rem;
+     margin-bottom: 1.5rem;
+  }
+
+  h3 {
+     color: #e2574c;
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+     font-weight: normal;
+  }
+
+  .thin-italics {
+    font-family: 'playfair', serif;
+    font-weight: normal;
+    font-style: italic
+  }
+  
+  body {
+    margin-top:125px;
+  }

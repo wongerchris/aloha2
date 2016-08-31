@@ -1,0 +1,161 @@
+@media only screen and (min-width: 600px){
+      
+    html {
+     font-size: 16px;
+    }
+
+    body {
+      margin-top: 100px;
+    }
+
+  /*--------------- Header ----------------------*/
+    header {
+      flex-wrap: nowrap;
+      margin-top: -100px;
+    }
+
+    .cart {
+      flex-basis: 20%;
+      order:3;
+    }
+    .logo {
+      flex-basis: 20%;
+      order:1;
+    }
+
+    /*-- Nav--*/
+    .main-menu {
+      order:2;
+      flex-basis: 60%;
+      text-align: center;
+    }
+
+    .main-menu ul {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .main-menu ul li {
+      margin: 0 .5rem;
+    }
+  /*--------------- Banner ----------------------*/
+
+    .hero {
+      background: 
+        linear-gradient( to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.35)), 
+        url('../images/banner-girl.png') no-repeat center 60px, 
+        url('../images/flower-bkgd.jpg') repeat-x center top;
+        background-size: cover, 150px 369px, cover;
+        height: 400px; 
+      }
+
+    .collection{
+      font-size: 1.1rem; 
+      }
+
+    .months  {
+      font-size: 3.3rem;
+      }
+
+  /*---------Products Section --------*/
+
+   .hp-item-large {
+      width: 50%;
+      padding-top: 25%;
+    }
+
+    .hp-item-square {
+      width: 25%;
+      padding-top: 25%;
+    }
+      /*borders*/
+    .hp-item-large-top{
+      border-bottom: 6px solid #fff;
+    }
+
+    .hp-item-large-bottom{
+      border-top: none;
+      border-left: 6px solid #fff;
+    }
+
+    .hp-item-square:nth-child(-n+2){
+      border-bottom: 6px solid #fff;
+    }
+    .hp-item-square:nth-child(2){
+      border-left: 6px solid #fff;
+    }
+
+    .hp-item-square:nth-child(odd){
+      border-left:3px solid #fff;
+    }
+
+    .hp-item-square:nth-child(even){
+      border-right:3px solid #fff;
+    }  
+  
+  /*------- Slider ------*/
+    .carousel-cell {
+        width: 50%;
+      } 
+    .flickity-viewport{
+      min-height:430px;
+    }
+
+  /*------------- About ------------------*/
+
+    .about {
+      height: auto;
+      padding: 4rem 3rem;
+      }
+
+    .info-about {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 700px;
+      }
+
+    .info-about p {
+      font-size: 1.15rem;
+      }
+
+  /*------------ signup section -----------*/
+
+    .signup-text {
+      max-width: 750px;
+      }
+
+    .signup-form{
+      width:60%;
+    }
+
+    .signup-form input[type="submit"]{
+      top: 4%;
+      right: .5%;
+      width: 130px;
+    }
+
+  /*--------------Footer-----------------*/
+
+    .footer-container {
+      flex-flow: row;
+      justify-content: space-between;
+    }
+    
+    .right-footer {
+      align-items: flex-end;
+      text-align: left;
+      width: 150px;
+    }
+    .left-footer {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .right-footer ul li {
+      display: block;
+    }
+
+    .social {
+        display: unset;
+    }
+  }

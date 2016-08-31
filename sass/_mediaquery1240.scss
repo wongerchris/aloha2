@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1240px){
+
+  /*--------------- Banner ----------------------*/
+
+    .hero {
+      background: 
+        linear-gradient( to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.35)), 
+        url('../images/banner-girl.png') no-repeat center 50px, 
+        url('../images/flower-bkgd.jpg') repeat-x center top;
+        background-size: cover, 216px 532px, contain;
+        height: 550px; 
+      }
+
+    .collection{
+      font-size: 1.3rem; 
+      }
+
+    .months  {
+      font-size: 3.7rem;
+      }
+
+
+    header {
+      padding: 1rem 3rem .5rem 3rem;
+    }  
+
+    .logo {
+      max-width: 150px;
+    }
+
+    .cart {
+      max-width: 60px;
+    }
+
+    #counter {
+    top: 40px;
+    right: 100px;
+  }
+    
+    .carousel-cell {
+        width: 25%;
+      }
+}

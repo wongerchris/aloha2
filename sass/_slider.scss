@@ -1,0 +1,80 @@
+/*- Slider Gallery(Flickity - http://flickity.metafizzy.co/)-*/
+
+  .gallery {
+    height: auto;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .carousel-cell p {
+    color: #969696;
+    font-weight: bold;
+  }
+
+  .p-type {
+    text-transform: uppercase;
+    font-size: .75rem;
+    margin-bottom: .75rem;
+  }
+
+  .addMe{
+    margin: 10px 0;
+  }
+  .addMe{
+    border: 0;
+    border-radius: 25px;
+    width: 80px;
+    background-color: #e2574c;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px;
+    color: #fff;
+  }
+
+  .addMe:active{
+    background-color: #f3674c;
+    color: #eee;
+    box-shadow: 2px 2px 2px #444;
+  }
+
+  .gallery-img {
+    max-width: 80%;
+    height: auto;
+  }
+  /*------Flickity Slider options ------*/
+  
+    .flickity-viewport{
+      min-height:400px;
+    }
+    .carousel {
+      width: 100%;
+      height: auto;
+      margin: 50px 0;
+    }
+
+    .carousel-cell {
+      width: 100%;
+      height: auto;
+      margin-right: 10px;
+      counter-increment: gallery-cell;
+    }
+
+    /* cell number */
+    .carousel-cell:before {
+      display: block;
+      text-align: center;
+    }
+
+    .flickity-prev-next-button:hover {
+      display: none;
+    }
+    /* hide disabled button */
+    .flickity-prev-next-button:disabled {
+      display: none;
+    }
+
+    .flickity-page-dots {
+      bottom: -30px;
+    }

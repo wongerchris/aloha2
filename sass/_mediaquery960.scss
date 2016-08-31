@@ -1,0 +1,55 @@
+@media only screen and (min-width: 960px){
+
+  /*--------------- Header ----------------------*/
+    
+    .cart {
+      flex-basis: 22%;
+      margin-left: 70px;
+      order: 3;
+    }
+
+    .logo {
+      flex-basis: 22%;
+      order: 1;
+    }
+
+    /*-- Nav--*/
+    .main-menu {
+      order:2;
+      flex-basis: 56%;
+      //margin-left:-160px;
+    }
+
+    .main-menu ul li {
+      margin: 0 1.5rem;
+    }
+  /*--------------- Banner ----------------------*/
+
+    .hero {
+        background: 
+          linear-gradient( to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.35)), 
+          url('../images/banner-girl.png') no-repeat center 50px, 
+          url('../images/flower-bkgd.jpg') repeat-x center top;
+          background-size: cover, 180px 443px, contain;
+          height: 450px; 
+        }
+
+      .collection{
+        font-size: 1.2rem; 
+        }
+
+      .months  {
+        font-size: 3.4rem;
+        }
+  /*------------- Product Section --------*/
+    .hp-content{
+      font-size: 2rem;
+    }
+  
+  /*------------ signup section -----------*/
+    .signup-form input[type="submit"]{
+      top: 5%;
+      right: .5%;
+      width: 140px;
+    }
+}
