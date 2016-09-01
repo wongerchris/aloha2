@@ -204,6 +204,11 @@ header {
   width: 100%;
   margin-top: -125px; }
 
+.screen-reader {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
 .logo {
   -ms-flex-align: start;
       -ms-grid-row-align: flex-start;

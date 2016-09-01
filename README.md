@@ -15,7 +15,9 @@ We were given design comps with typography, color, and structural requirents.  T
 ![Alt text](./images/aloha-desktop-stretch.png "Aloha")
 
 
-##Aloha 2:
+##Project Reflections:
+
+This project touched on a number of fundamental skills for Front-End Development. We learned how to integrate a JQuery plugin, use jQuery for more interactivity, how implement accessibility and CSS3 styling
 
 ####Project Highlights:
 
@@ -26,5 +28,5 @@ We were given design comps with typography, color, and structural requirents.  T
 5. Flexbox grid with proportional box sizing with responsive design
 6. Added accessibility 
 
-##Project Reflections
-This project touched on a number of fundamental skills for Front-End Development. We learned how to integrate a JQuery plugin, use jQuery for more interactivity, how implement accessibility and CSS3 styling.  
+
+.  
