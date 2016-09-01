@@ -231,10 +231,18 @@ header {
 
 #counter {
   position: absolute;
-  top: 30px;
-  color: #e2574c;
-  font-size: 1.8rem;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  font-size: 1rem;
   font-weight: bold; }
+
+.counter {
+  background-color: #e2574c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center; }
 
 /*-- Nav--*/
 .main-menu {
@@ -719,7 +727,7 @@ footer {
   .cart {
     max-width: 60px; }
   #counter {
-    top: 40px;
-    right: 100px; }
+    top: 5px;
+    right: 40px; }
   .carousel-cell {
     width: 25%; } }

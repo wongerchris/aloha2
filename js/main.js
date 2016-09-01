@@ -42,6 +42,7 @@ $(document).ready(function() {
   var counter = 0; 
     $(".addMe").click(function(){
         counter++;
+    $( "#counter" ).addClass( "counter" );
 
     $("#counter").text(counter);
   });

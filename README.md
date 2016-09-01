@@ -17,7 +17,7 @@ We were given design comps with typography, color, and structural requirents.  T
 
 ##Project Reflections:
 
-This project touched on a number of fundamental skills for Front-End Development. We learned how to integrate a JQuery plugin, use jQuery for more interactivity, how implement accessibility and CSS3 styling
+This project touched on a number of fundamental skills for Front-End Development. We learned how to integrate a JQuery plugin, use jQuery for interactivity, how to properly incorporate accessibility and new CSS3 layout properties like Flexbox.
 
 ####Project Highlights:
 
